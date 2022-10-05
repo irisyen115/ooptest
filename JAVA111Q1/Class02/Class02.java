@@ -1,4 +1,4 @@
-package Class02;
+package JAVA111Q1.Class02;
 
 class Data {
     private String name;

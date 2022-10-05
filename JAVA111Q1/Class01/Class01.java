@@ -1,4 +1,4 @@
-package Class01;
+package JAVA111Q1.Class01;
 
 class Calculator {
     private double pi = 3.14159;
