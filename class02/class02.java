@@ -22,18 +22,8 @@ class Data {
         name = n;
         score = new Test(eng, m);
     }
-
-
-    public String getname() {
-        return name;
-    }
-
-    public Test getscore() {
-        return score;
-    }    
     public void show() {
-        System.out.println("name:" + getname() + " " + "english:" + getscore().english + " " + "math:" + getscore().math + " " +"avg:"+ getscore().avg());
-                
+        System.out.println("name:" + name + " " + "english:" + score.english + " " + "math:" + score.math + " " +"avg:"+ score.avg());
     }
 }
 

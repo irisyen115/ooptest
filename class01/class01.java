@@ -1,6 +1,6 @@
 package Class01;
 
-class CCircle {
+class Calculator {
     private double pi = 3.14159;
 
     public double Cal_area(int r) {
@@ -13,9 +13,9 @@ class CCircle {
 
 public class Class01 {
     public static void main(String[] args) {
-        CCircle circle = new CCircle();
+        Calculator circle = new Calculator();
         System.out.println(circle.Cal_area(10));
-        CCircle rectangle = new CCircle();
+        Calculator rectangle = new Calculator();
         System.out.println(rectangle.Cal_area(4, 5, 6));
     }
 
