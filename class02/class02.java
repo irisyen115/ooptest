@@ -31,12 +31,9 @@ class Data {
     public Test getscore() {
         return score;
     }    
-    public void show(Data[] d) {
-        for (int i = 0; i < d.length; i++) {
-            System.out.println(
-                    "name:" + getname() + " " + "english:" + getscore().english + " " + "math:" + getscore().math + " " +"avg:"+ getscore().avg());
-                    break;
-        }
+    public void show() {
+        System.out.println("name:" + getname() + " " + "english:" + getscore().english + " " + "math:" + getscore().math + " " +"avg:"+ getscore().avg());
+                
     }
 }
 
@@ -46,7 +43,7 @@ public class Class02 {
         dat = new Data[2];
         dat[0] = new Data("Annie", 85, 92);
         dat[1] = new Data("Brian", 77, 56);
-        dat[0].show(dat);
-        dat[1].show(dat);
+        dat[0].show();
+        dat[1].show();
     }
 }
